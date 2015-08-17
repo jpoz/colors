@@ -24,3 +24,8 @@ base0D: "967faf"
 base0E: "e88dc0"
 base0F: "c9b588"
 ```
+
+## Preview:
+
+![](https://simple-monosnap.s3.amazonaws.com/taco/2._hello_zsh_2015-08-17_12-38-49.png)
+
