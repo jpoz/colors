@@ -2,6 +2,8 @@
 
 Made with [base16-builder](https://github.com/chriskempson/base16-builder).
 
+![](https://simple-monosnap.s3.amazonaws.com/taco/Untitled_2_2015-08-17_09-45-41.png)
+
 ```yaml
 scheme: "Simple"
 author: "JPOZ (http://jpoz.net)"
