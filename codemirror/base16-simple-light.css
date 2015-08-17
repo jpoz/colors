@@ -1,0 +1,33 @@
+/*
+
+    Name:       Base16 Simple Light
+    Author:     JPOZ (http://jpoz.net)
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-base16-simple-light.CodeMirror {background: #f6f8f8; color: #30383b;}
+.cm-s-base16-simple-light div.CodeMirror-selected {background: #e8e8e8 !important;}
+.cm-s-base16-simple-light .CodeMirror-gutters {background: #f6f8f8; border-right: 0px;}
+.cm-s-base16-simple-light .CodeMirror-linenumber {color: #768993;}
+.cm-s-base16-simple-light .CodeMirror-cursor {border-left: 1px solid #526068 !important;}
+
+.cm-s-base16-simple-light span.cm-comment {color: #c9b588;}
+.cm-s-base16-simple-light span.cm-atom {color: #e88dc0;}
+.cm-s-base16-simple-light span.cm-number {color: #e88dc0;}
+
+.cm-s-base16-simple-light span.cm-property, .cm-s-base16-simple-light span.cm-attribute {color: #8dd5aa;}
+.cm-s-base16-simple-light span.cm-keyword {color: #ed735f;}
+.cm-s-base16-simple-light span.cm-string {color: #fad19b;}
+
+.cm-s-base16-simple-light span.cm-variable {color: #8dd5aa;}
+.cm-s-base16-simple-light span.cm-variable-2 {color: #967faf;}
+.cm-s-base16-simple-light span.cm-def {color: #f5a940;}
+.cm-s-base16-simple-light span.cm-error {background: #ed735f; color: #526068;}
+.cm-s-base16-simple-light span.cm-bracket {color: #30383b;}
+.cm-s-base16-simple-light span.cm-tag {color: #ed735f;}
+.cm-s-base16-simple-light span.cm-link {color: #e88dc0;}
+
+.cm-s-base16-simple-light .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}
