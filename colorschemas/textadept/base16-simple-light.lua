@@ -15,14 +15,14 @@ property['color.base04'] = 0x938976
 property['color.base05'] = 0xbfbaae
 property['color.base06'] = 0xe8e8e8
 property['color.base07'] = 0xf8f8f6
-property['color.base08'] = 0x5f73ed
-property['color.base09'] = 0x40a9f5
-property['color.base0A'] = 0x9bd1fa
-property['color.base0B'] = 0xaad58d
-property['color.base0C'] = 0xd2a734
-property['color.base0D'] = 0xaf7f96
-property['color.base0E'] = 0xc08de8
-property['color.base0F'] = 0x88b5c9
+property['color.base08'] = 0x6473E8
+property['color.base09'] = 0x4FA7F1
+property['color.base0A'] = 0xA0D0F8
+property['color.base0B'] = 0xACD493
+property['color.base0C'] = 0xBCB581
+property['color.base0D'] = 0xCFA943
+property['color.base0E'] = 0xAD8195
+property['color.base0F'] = 0x8CB4C8
 
 -- Default font.
 property['font'], property['fontsize'] = 'Bitstream Vera Sans Mono', 10

@@ -25,25 +25,25 @@ pre .comment {
 }
 
 pre .variable.global, pre .variable.class, pre .variable.instance {
-    color: #ed735f; /* red */
+    color: #E87364; /* red */
 }
 
 pre .constant.numeric, pre .constant.language, pre .constant.hex-color, pre .keyword.unit {
-    color: #f5a940; /* orange */
+    color: #F1A74F; /* orange */
 }
 
 pre .constant, pre .entity, pre .entity.class, pre .support {
-    color: #fad19b; /* yellow */
+    color: #F8D0A0; /* yellow */
 }
 
 pre .constant.symbol, pre .string {
-    color: #8dd5aa; /* green */
+    color: #93D4AC; /* green */
 }
 
 pre .entity.function, pre .support.css-property, pre .selector {
-    color: #967faf; /* blue */
+    color: #43A9CF; /* blue */
 }
 
 pre .keyword, pre .storage {
-    color: #e88dc0; /* purple */
+    color: #9581AD; /* purple */
 }

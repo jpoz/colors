@@ -3,12 +3,12 @@
 # JPOZ (http://jpoz.net)
 
 color00="f6f8f8" # Base 07 - White
-color01="ed735f" # Base 08 - Red
-color02="8dd5aa" # Base 0B - Green
-color03="fad19b" # Base 0A - Yellow
-color04="967faf" # Base 0D - Blue
-color05="e88dc0" # Base 0E - Magenta
-color06="34a7d2" # Base 0C - Cyan
+color01="E87364" # Base 08 - Red
+color02="93D4AC" # Base 0B - Green
+color03="F8D0A0" # Base 0A - Yellow
+color04="43A9CF" # Base 0D - Blue
+color05="9581AD" # Base 0E - Magenta
+color06="81B5BC" # Base 0C - Cyan
 color07="3c474c" # Base 02 - Black
 color08="aebabf" # Base 05 - Bright White
 color09=$color01 # Base 08 - Bright Red

@@ -27,7 +27,7 @@
 .css .hljs-id,
 .css .hljs-class,
 .css .hljs-pseudo {
-  color: #ed735f;
+  color: #E87364;
 }
 
 /* Simple Orange */
@@ -37,13 +37,13 @@
 .hljs-literal,
 .hljs-params,
 .hljs-constant {
-  color: #f5a940;
+  color: #F1A74F;
 }
 
 /* Simple Yellow */
 .ruby .hljs-class .hljs-title,
 .css .hljs-rules .hljs-attribute {
-  color: #fad19b;
+  color: #F8D0A0;
 }
 
 /* Simple Green */
@@ -53,12 +53,12 @@
 .hljs-header,
 .ruby .hljs-symbol,
 .xml .hljs-cdata {
-  color: #8dd5aa;
+  color: #93D4AC;
 }
 
 /* Simple Aqua */
 .css .hljs-hexcolor {
-  color: #34a7d2;
+  color: #81B5BC;
 }
 
 /* Simple Blue */
@@ -70,13 +70,13 @@
 .perl .hljs-sub,
 .javascript .hljs-title,
 .coffeescript .hljs-title {
-  color: #967faf;
+  color: #43A9CF;
 }
 
 /* Simple Purple */
 .hljs-keyword,
 .javascript .hljs-function {
-  color: #e88dc0;
+  color: #9581AD;
 }
 
 .hljs {

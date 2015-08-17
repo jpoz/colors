@@ -22,7 +22,7 @@
 }
 #-webkit-web-inspector.compact #toolbar {
   background: -webkit-linear-gradient(#768993, #e8e8e8) !important;
-  border-top: 5px solid #34a7d2 !important;
+  border-top: 5px solid #81B5BC !important;
   border-bottom: 1px solid #aebabf !important;
   padding-top: 0 !important;
   height: 50px !important;
@@ -107,7 +107,7 @@
   font-family: 'DejaVu Sans Mono', 'DroidSansMono', Menlo, monospace !important;
 }
 #-webkit-web-inspector .selector-matches {
-  color: #e88dc0 !important;
+  color: #9581AD !important;
 }
 #-webkit-web-inspector body.inactive .sidebar {
   background-color: #dcdcdc !important;
@@ -179,16 +179,16 @@
 }
 #-webkit-web-inspector .section .properties .name,
 #-webkit-web-inspector .event-properties .name {
-  color: #fad19b !important;
+  color: #F8D0A0 !important;
 }
 #-webkit-web-inspector .styles-selector {
-  color: #8dd5aa !important;
+  color: #93D4AC !important;
 }
 #-webkit-web-inspector .section .header {
   color: #CCC !important;
 }
 #-webkit-web-inspector .properties .value {
-  color: #34a7d2 !important;
+  color: #81B5BC !important;
 }
 #-webkit-web-inspector .metrics {
   color: #333 !important;
@@ -221,10 +221,10 @@
   color: #C4C7C6 !important;
 }
 #-webkit-web-inspector .console-formatted-number {
-  color: #f5a940 !important;
+  color: #F1A74F !important;
 }
 #-webkit-web-inspector .console-formatted-string {
-  color: #f5a940 !important;
+  color: #F1A74F !important;
 }
 #-webkit-web-inspector .console-formatted-object {
   color: #7C7C7C !important;
@@ -233,7 +233,7 @@
   color: #242728 !important;
 }
 #-webkit-web-inspector .console-formatted-regexp {
-  color: #e88dc0 !important;
+  color: #9581AD !important;
 }
 #-webkit-web-inspector .console-group-messages .section .header .title {
   color: #F1F1F1 !important;
@@ -278,10 +278,10 @@
   color: #242728 !important;
 }
 #-webkit-web-inspector .console-formatted-number {
-  color: #f5a940 !important;
+  color: #F1A74F !important;
 }
 #-webkit-web-inspector .console-formatted-string {
-  color: #f5a940 !important;
+  color: #F1A74F !important;
 }
 #-webkit-web-inspector .console-formatted-object,
 #-webkit-web-inspector .console-formatted-node,
@@ -292,7 +292,7 @@
   color: #242728 !important;
 }
 #-webkit-web-inspector .console-formatted-regexp {
-  color: #e88dc0 !important;
+  color: #9581AD !important;
 }
 #-webkit-web-inspector .script-view,
 #-webkit-web-inspector .properties-tree,
@@ -350,7 +350,7 @@
   background-color: #3879d9 !important;
 }
 #-webkit-web-inspector .header-toggle:hover {
-  color: #967faf !important;
+  color: #43A9CF !important;
 }
 #-webkit-web-inspector .header-value.source-code {
   color: white !important;
@@ -359,50 +359,50 @@
   color: #768993 !important;
 }
 #-webkit-web-inspector .webkit-html-tag {
-  color: #ed735f !important;
+  color: #E87364 !important;
 }
 #-webkit-web-inspector .webkit-html-attribute-name {
-  color: #f5a940 !important;
+  color: #F1A74F !important;
 }
 #-webkit-web-inspector .webkit-html-attribute-value {
-  color: #8dd5aa !important;
+  color: #93D4AC !important;
 }
 #-webkit-web-inspector .webkit-html-text-node .webkit-html-css-node {
-  color: #f5a940 !important;
+  color: #F1A74F !important;
 }
 #-webkit-web-inspector .webkit-html-js-node {
-  color: #e88dc0 !important;
+  color: #9581AD !important;
 }
 #-webkit-web-inspector .webkit-html-resource-link,
 #-webkit-web-inspector .webkit-html-external-link {
-  color: #967faf !important;
+  color: #43A9CF !important;
 }
 #-webkit-web-inspector .webkit-css-comment {
   color: #768993 !important;
 }
 #-webkit-web-inspector .webkit-css-selector,
 #-webkit-web-inspector .styles-selector {
-  color: #8dd5aa !important;
+  color: #93D4AC !important;
 }
 #-webkit-web-inspector .webkit-css-property {
-  color: #fad19b !important;
+  color: #F8D0A0 !important;
 }
 #-webkit-web-inspector .webkit-css-keyword {
-  color: #ed735f !important;
+  color: #E87364 !important;
 }
 #-webkit-web-inspector .webkit-css-number,
 #-webkit-web-inspector .properties-tree .value {
-  color: #f5a940 !important;
+  color: #F1A74F !important;
 }
 #-webkit-web-inspector .webkit-css-important,
 #-webkit-web-inspector .webkit-css-at-rule {
-  color: #e88dc0 !important;
+  color: #9581AD !important;
 }
 #-webkit-web-inspector .webkit-css-string {
-  color: #34a7d2 !important;
+  color: #81B5BC !important;
 }
 #-webkit-web-inspector .webkit-css-url {
-  color: #967faf !important;
+  color: #43A9CF !important;
 }
 #-webkit-web-inspector .sidebar-separator {
   padding: 3px 5px 5px !important;
@@ -415,23 +415,23 @@
   color: #242728 !important;
 }
 #-webkit-web-inspector .webkit-javascript-keyword {
-  color: #ed735f !important;
+  color: #E87364 !important;
 }
 #-webkit-web-inspector .webkit-javascript-comment {
   color: #768993 !important;
 }
 #-webkit-web-inspector .webkit-javascript-string {
-  color: #f5a940 !important;
+  color: #F1A74F !important;
 }
 #-webkit-web-inspector .webkit-javascript-number {
-  color: #f5a940 !important;
+  color: #F1A74F !important;
 }
 #-webkit-web-inspector .webkit-javascript-regexp {
-  color: #e88dc0 !important;
+  color: #9581AD !important;
 }
 #-webkit-web-inspector .section .properties .name,
 #-webkit-web-inspector .event-properties .name {
-  color: #fad19b !important;
+  color: #F8D0A0 !important;
 }
 #-webkit-web-inspector .popover {
   background-color: rgba(0, 0, 0, 0.9) !important;
@@ -474,7 +474,7 @@
   border-radius: 5px !important;
 }
 #-webkit-web-inspector .popover table.image-preview-container .description {
-  color: #f5a940;
+  color: #F1A74F;
 }
 #-webkit-web-inspector .network-log-grid.data-grid th,
 #-webkit-web-inspector .network-log-grid.data-grid th.sort-descending,
@@ -502,7 +502,7 @@
 }
 #-webkit-web-inspector #timeline-overview-separator {
   background: -webkit-linear-gradient(#768993, #e8e8e8) !important;
-  border-top: 1px solid #34a7d2 !important;
+  border-top: 1px solid #81B5BC !important;
   border-bottom: 1px solid #aebabf !important;
 }
 #-webkit-web-inspector .timeline-details-title {
@@ -587,10 +587,10 @@
 }
 #-webkit-web-inspector .settings-tab .help-section-title,
 #-webkit-web-inspector .help-key {
-  color: #34a7d2 !important;
+  color: #81B5BC !important;
 }
 #-webkit-web-inspector .help-key-delimiter {
-  color: #e88dc0 !important;
+  color: #9581AD !important;
 }
 #-webkit-web-inspector .styles-element-state-pane {
   background: #b8b8b8 !important;
@@ -599,7 +599,7 @@
   background: #333 !important;
 }
 #-webkit-web-inspector .placard.selected {
-  background-image: -webkit-linear-gradient(#34a7d2, #335e57) !important;
+  background-image: -webkit-linear-gradient(#81B5BC, #335e57) !important;
   border-top-color: #335e57 !important;
 }
 #-webkit-web-inspector .placard .title {

@@ -36,14 +36,14 @@
   <color name="base05" value="#aebabf"/>
   <color name="base06" value="#e8e8e8"/>
   <color name="base07" value="#f6f8f8"/>
-  <color name="base08" value="#ed735f"/>
-  <color name="base09" value="#f5a940"/>
-  <color name="base0A" value="#fad19b"/>
-  <color name="base0B" value="#8dd5aa"/>
-  <color name="base0C" value="#34a7d2"/>
-  <color name="base0D" value="#967faf"/>
-  <color name="base0E" value="#e88dc0"/>
-  <color name="base0F" value="#c9b588"/>
+  <color name="base08" value="#E87364"/>
+  <color name="base09" value="#F1A74F"/>
+  <color name="base0A" value="#F8D0A0"/>
+  <color name="base0B" value="#93D4AC"/>
+  <color name="base0C" value="#81B5BC"/>
+  <color name="base0D" value="#43A9CF"/>
+  <color name="base0E" value="#9581AD"/>
+  <color name="base0F" value="#C8B48C"/>
 
   <!-- Styles -->
   <style name="bracket-match" background="base06" bold="true"/>

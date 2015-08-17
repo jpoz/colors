@@ -12,14 +12,14 @@
   <Color name="base05" value="#aebabf"/>
   <Color name="base06" value="#e8e8e8"/>
   <Color name="base07" value="#f6f8f8"/>
-  <Color name="base08" value="#ed735f"/>
-  <Color name="base09" value="#f5a940"/>
-  <Color name="base0A" value="#fad19b"/>
-  <Color name="base0B" value="#8dd5aa"/>
-  <Color name="base0C" value="#34a7d2"/>
-  <Color name="base0D" value="#967faf"/>
-  <Color name="base0E" value="#e88dc0"/>
-  <Color name="base0F" value="#c9b588"/>
+  <Color name="base08" value="#E87364"/>
+  <Color name="base09" value="#F1A74F"/>
+  <Color name="base0A" value="#F8D0A0"/>
+  <Color name="base0B" value="#93D4AC"/>
+  <Color name="base0C" value="#81B5BC"/>
+  <Color name="base0D" value="#43A9CF"/>
+  <Color name="base0E" value="#9581AD"/>
+  <Color name="base0F" value="#C8B48C"/>
 
   <!-- Text -->
   <Style name="text" color="base02" bgColor="base07"/>

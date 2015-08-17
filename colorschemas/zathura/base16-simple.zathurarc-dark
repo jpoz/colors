@@ -9,22 +9,22 @@ set statusbar-bg                "#30383b"
 set inputbar-bg                 "#242728"
 set inputbar-fg                 "#3c474c"
 
-set notification-error-bg       "#ed735f"
+set notification-error-bg       "#E87364"
 set notification-error-fg       "#242728"
 
-set notification-warning-bg     "#ed735f"
+set notification-warning-bg     "#E87364"
 set notification-warning-fg     "#242728"
 
-set highlight-color             "#fad19b"
-set highlight-active-color      "#967faf"
+set highlight-color             "#F8D0A0"
+set highlight-active-color      "#43A9CF"
 
 set completion-highlight-fg     "#3c474c"
-set completion-highlight-bg     "#34a7d2"
+set completion-highlight-bg     "#81B5BC"
 
 set completion-bg               "#3c474c"
-set completion-fg               "#34a7d2"
+set completion-fg               "#81B5BC"
 
-set notification-bg             "#8dd5aa"
+set notification-bg             "#93D4AC"
 set notification-fg             "#242728"
 
 set recolor-lightcolor          "#242728"
