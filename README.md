@@ -2,7 +2,7 @@
 
 Made with [base16-builder](https://github.com/chriskempson/base16-builder).
 
-![](https://simple-monosnap.s3.amazonaws.com/taco/Monosnap_2015-08-17_12-36-40.png)
+![](https://raw.githubusercontent.com/jpoz/colors/master/colors.png)
 
 ```yaml
 scheme: "Simple"
@@ -27,5 +27,5 @@ base0F: "C8B48C"
 
 ## Preview:
 
-![](https://simple-monosnap.s3.amazonaws.com/taco/2._hello_zsh_2015-08-17_12-38-49.png)
 
+![](https://raw.githubusercontent.com/jpoz/colors/master/preview.png)
