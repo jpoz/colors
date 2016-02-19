@@ -1,0 +1,33 @@
+/*
+
+    Name:       Base16 Airboss Dark
+    Author:     JPOZ (http://jpoz.net)
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-base16-airboss-dark.CodeMirror {background: #2B2D2E; color: #CDD0CC;}
+.cm-s-base16-airboss-dark div.CodeMirror-selected {background: #393C3D !important;}
+.cm-s-base16-airboss-dark .CodeMirror-gutters {background: #2B2D2E; border-right: 0px;}
+.cm-s-base16-airboss-dark .CodeMirror-linenumber {color: #82898D;}
+.cm-s-base16-airboss-dark .CodeMirror-cursor {border-left: 1px solid #959595 !important;}
+
+.cm-s-base16-airboss-dark span.cm-comment {color: #B4A76C;}
+.cm-s-base16-airboss-dark span.cm-atom {color: #7B0051;}
+.cm-s-base16-airboss-dark span.cm-number {color: #7B0051;}
+
+.cm-s-base16-airboss-dark span.cm-property, .cm-s-base16-airboss-dark span.cm-attribute {color: #8CE071;}
+.cm-s-base16-airboss-dark span.cm-keyword {color: #FF5A5F;}
+.cm-s-base16-airboss-dark span.cm-string {color: #FFB400;}
+
+.cm-s-base16-airboss-dark span.cm-variable {color: #8CE071;}
+.cm-s-base16-airboss-dark span.cm-variable-2 {color: #007A87;}
+.cm-s-base16-airboss-dark span.cm-def {color: #FFAA91;}
+.cm-s-base16-airboss-dark span.cm-error {background: #FF5A5F; color: #959595;}
+.cm-s-base16-airboss-dark span.cm-bracket {color: #CDD0CC;}
+.cm-s-base16-airboss-dark span.cm-tag {color: #FF5A5F;}
+.cm-s-base16-airboss-dark span.cm-link {color: #7B0051;}
+
+.cm-s-base16-airboss-dark .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}

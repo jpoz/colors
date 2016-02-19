@@ -1,0 +1,33 @@
+/*
+
+    Name:       Base16 Airboss Light
+    Author:     JPOZ (http://jpoz.net)
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-base16-airboss-light.CodeMirror {background: #F0F0F0; color: #393C3D;}
+.cm-s-base16-airboss-light div.CodeMirror-selected {background: #CDD0CC !important;}
+.cm-s-base16-airboss-light .CodeMirror-gutters {background: #F0F0F0; border-right: 0px;}
+.cm-s-base16-airboss-light .CodeMirror-linenumber {color: #959595;}
+.cm-s-base16-airboss-light .CodeMirror-cursor {border-left: 1px solid #82898D !important;}
+
+.cm-s-base16-airboss-light span.cm-comment {color: #B4A76C;}
+.cm-s-base16-airboss-light span.cm-atom {color: #7B0051;}
+.cm-s-base16-airboss-light span.cm-number {color: #7B0051;}
+
+.cm-s-base16-airboss-light span.cm-property, .cm-s-base16-airboss-light span.cm-attribute {color: #8CE071;}
+.cm-s-base16-airboss-light span.cm-keyword {color: #FF5A5F;}
+.cm-s-base16-airboss-light span.cm-string {color: #FFB400;}
+
+.cm-s-base16-airboss-light span.cm-variable {color: #8CE071;}
+.cm-s-base16-airboss-light span.cm-variable-2 {color: #007A87;}
+.cm-s-base16-airboss-light span.cm-def {color: #FFAA91;}
+.cm-s-base16-airboss-light span.cm-error {background: #FF5A5F; color: #82898D;}
+.cm-s-base16-airboss-light span.cm-bracket {color: #393C3D;}
+.cm-s-base16-airboss-light span.cm-tag {color: #FF5A5F;}
+.cm-s-base16-airboss-light span.cm-link {color: #7B0051;}
+
+.cm-s-base16-airboss-light .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}
