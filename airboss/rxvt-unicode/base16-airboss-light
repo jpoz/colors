@@ -1,0 +1,52 @@
+! Base16 Airboss
+! Scheme: JPOZ (http://jpoz.net)
+
+! URxvt*tintColor:                      color
+! URxvt*fadeColor:                      color
+
+URxvt*background:                     #F0F0F0
+URxvt*foreground:                     #565A5C
+URxvt*cursorColor:                    #565A5C
+
+! URxvt*colorBD:                        color
+! URxvt*colorIT:                        color
+! URxvt*colorUL:                        color
+! URxvt*colorRV:                        color
+! URxvt*underlineColor:                 color
+URxvt*scrollColor:                    #9CA299
+! URxvt*troughColor:                    color
+URxvt*highlightColor:                 #F0F0F0
+URxvt*highlightTextColor:             #9CA299
+! URxvt*cursorColor2:                   color
+! URxvt*pointerColor:                   color
+! URxvt*pointerColor2:                  color
+! URxvt*borderColor:                    color
+! URxvt*tab-bg:                         colour
+! URxvt*tab-fg:                         colour
+! URxvt*tabbar-bg:                      colour
+! URxvt*tabbar-fg:                      colour
+
+URxvt*color0:                         #2B2D2E
+URxvt*color1:                         #FF5A5F
+URxvt*color2:                         #8CE071
+URxvt*color3:                         #FFB400
+URxvt*color4:                         #007A87
+URxvt*color5:                         #7B0051
+URxvt*color6:                         #00D1C1
+URxvt*color7:                         #9CA299
+URxvt*color8:                         #82898D
+URxvt*color9:                         #FF5A5F
+URxvt*color10:                        #8CE071
+URxvt*color11:                        #FFB400
+URxvt*color12:                        #007A87
+URxvt*color13:                        #7B0051
+URxvt*color14:                        #00D1C1
+URxvt*color15:                        #F0F0F0
+
+! 256 color space
+URxvt*color16:                        #FFAA91
+URxvt*color17:                        #B4A76C
+URxvt*color18:                        #393C3D
+URxvt*color19:                        #565A5C
+URxvt*color20:                        #959595
+URxvt*color21:                        #CDD0CC

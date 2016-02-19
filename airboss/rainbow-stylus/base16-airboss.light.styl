@@ -1,0 +1,66 @@
+/**
+ * Base16 Airboss Light
+ *
+ * @author JPOZ (http://jpoz.net)
+ *
+ * Rainbow template by Jan T. Sott (https://github.com/idleberg/)
+ * Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+ */
+$base00 = #2B2D2E;
+$base01 = #393C3D;
+$base02 = #565A5C;
+$base03 = #82898D;
+$base04 = #959595;
+$base05 = #9CA299;
+$base06 = #CDD0CC;
+$base07 = #F0F0F0;
+$base08 = #FF5A5F;
+$base09 = #FFAA91;
+$base0a = #FFB400;
+$base0b = #8CE071;
+$base0c = #00D1C1;
+$base0d = #007A87;
+$base0e = #7B0051;
+$base0f = #B4A76C;
+
+pre {
+    background-color: $base07;
+    word-wrap: break-word;
+    margin: 0px;
+    padding: 10px;
+    color: $base00;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+pre, code {
+    font-family: 'Monaco', courier, monospace;
+}
+
+pre .comment {
+    color: $base04;
+}
+
+pre .variable.global, pre .variable.class, pre .variable.instance {
+    color: $base08; // red
+}
+
+pre .constant.numeric, pre .constant.language, pre .constant.hex-color, pre .keyword.unit {
+    color: $base09; // orange
+}
+
+pre .constant, pre .entity, pre .entity.class, pre .support {
+    color: $base0a; // yellow
+}
+
+pre .constant.symbol, pre .string {
+    color: $base0b; // green
+}
+
+pre .entity.function, pre .support.css-property, pre .selector {
+    color: $base0d; // blue
+}
+
+pre .keyword, pre .storage {
+    color: $base0e; // purple
+}

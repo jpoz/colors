@@ -1,0 +1,181 @@
+/*
+
+    Name:       Base16 Airboss Light
+    Author:     JPOZ (http://jpoz.net)
+
+    Prettify template by Jan T. Sott (https://github.com/idleberg/)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+$base00 = #2B2D2E;
+$base01 = #393C3D;
+$base02 = #565A5C;
+$base03 = #82898D;
+$base04 = #959595;
+$base05 = #9CA299;
+$base06 = #CDD0CC;
+$base07 = #F0F0F0;
+$base08 = #FF5A5F;
+$base09 = #FFAA91;
+$base0a = #FFB400;
+$base0b = #8CE071;
+$base0c = #00D1C1;
+$base0d = #007A87;
+$base0e = #7B0051;
+$base0f = #B4A76C;
+
+// plain text
+.pln {
+  color: $base00;
+}
+
+@media screen {
+  // string content
+  .str {
+    color: $base0b;
+  }
+
+  // a keyword
+  .kwd {
+    color: $base0e;
+  }
+
+  // a comment
+  .com {
+    color: $base04;
+  }
+
+  // a type name
+  .typ {
+    color: $base0d;
+  }
+
+  // a literal value
+  .lit {
+    color: $base09;
+  }
+
+  // punctuation
+  .pun {
+    color: $base00;
+  }
+
+  // lisp open bracket
+  .opn {
+    color: $base00;
+  }
+
+  // lisp close bracket
+  .clo {
+    color: $base00;
+  }
+
+  // a markup tag name
+  .tag {
+    color: $base08;
+  }
+
+  // a markup attribute name
+  .atn {
+    color: $base09;
+  }
+
+  // a markup attribute value
+  .atv {
+    color: $base0c;
+  }
+
+  // a declaration
+  .dec {
+    color: $base09;
+  }
+
+  // a variable name
+  .var {
+    color: $base08;
+  }
+
+  // a function name
+  .fun {
+    color: $base0d;
+  }
+}
+// Use higher contrast and text-weight for printable form.
+@media print, projection {
+  .str {
+    color: #006600;
+  }
+
+  .kwd {
+    color: #006;
+    font-weight: bold;
+  }
+
+  .com {
+    color: #600;
+    font-style: italic;
+  }
+
+  .typ {
+    color: #404;
+    font-weight: bold;
+  }
+
+  .lit {
+    color: #004444;
+  }
+
+  .pun, .opn, .clo {
+    color: #444400;
+  }
+
+  .tag {
+    color: #006;
+    font-weight: bold;
+  }
+
+  .atn {
+    color: #440044;
+  }
+
+  .atv {
+    color: #006600;
+  }
+}
+// Style
+pre.prettyprint {
+  background: $base07;
+  font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
+  font-size: 12px;
+  line-height: 1.5;
+  border: 1px solid $base00;
+  padding: 10px;
+}
+
+// Specify class=linenums on a pre to get line numbering
+ol.linenums {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+// IE indents via margin-left
+li.L0,
+li.L1,
+li.L2,
+li.L3,
+li.L4,
+li.L5,
+li.L6,
+li.L7,
+li.L8,
+li.L9 {
+}
+
+// Alternate shading for lines
+li.L1,
+li.L3,
+li.L5,
+li.L7,
+li.L9 {
+}

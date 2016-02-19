@@ -1,0 +1,66 @@
+# vim: filetype=yaml
+# i3-style Template
+# Base16 Airboss, by JPOZ (http://jpoz.net)
+# template by Matt Parnell, @parnmatt
+---
+colors:
+    base00:              '#2B2D2E'
+    base01:              '#393C3D'
+    base02:              '#565A5C'
+    base03:              '#82898D'
+    base04:              '#959595'
+    base05:              '#9CA299'
+    base06:              '#CDD0CC'
+    base07:              '#F0F0F0'
+    base08:              '#FF5A5F'
+    base09:              '#FFAA91'
+    base0A:              '#FFB400'
+    base0B:              '#8CE071'
+    base0C:              '#00D1C1'
+    base0D:              '#007A87'
+    base0E:              '#7B0051'
+    base0F:              '#B4A76C'
+
+meta:
+    description:         'Base16 Airboss, by JPOZ (http://jpoz.net)'
+window_colors:
+    focused:
+        border:          'base0D'
+        background:      'base0D'
+        text:            'base00'
+        indicator:       'base01'
+    focused_inactive:
+        border:          'base02'
+        background:      'base02'
+        text:            'base03'
+        indicator:       'base01'
+    unfocused:
+        border:          'base01'
+        background:      'base01'
+        text:            'base03'
+        indicator:       'base01'
+    urgent:
+        border:          'base02'
+        background:      'base08'
+        text:            'base07'
+        indicator:       'base08'
+bar_colors:
+    separator:           'base03'
+    background:          'base00'
+    statusline:          'base05'
+    focused_workspace:
+        border:          'base0D'
+        background:      'base0D'
+        text:            'base00'
+    active_workspace:
+        border:          'base02'
+        background:      'base02'
+        text:            'base07'
+    inactive_workspace:
+        border:          'base01'
+        background:      'base01'
+        text:            'base03'
+    urgent_workspace:
+        border:          'base08'
+        background:      'base08'
+        text:            'base07'

@@ -1,0 +1,20 @@
+GIMP Palette
+Name: Base16 Airboss
+Columns: 16
+#
+  43  45  46	base00
+  57  60  61	base01
+  86  90  92	base02
+  130  137  141	base03
+  149  149  149	base04
+  156  162  153	base05
+  205  208  204	base06
+  240  240  240	base07
+  255  90  95	base08
+  255  170  145	base09
+  255  180  0	base0A
+  140  224  113	base0B
+  0  209  193	base0C
+  0  122  135	base0D
+  123  0  81	base0E
+  180  167  108	base0F
