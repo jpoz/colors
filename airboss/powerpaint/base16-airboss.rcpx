@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE palette PUBLIC "-//Kreative//DTD ResplendentColor 1.0//EN" "rcpx.dtd">
+<palette name="Base16 Airboss">
+	<colors ordered="ordered">
+		<rgb r= "43" g= "45" b= "46"/>
+		<rgb r= "57" g= "60" b= "61"/>
+		<rgb r= "86" g= "90" b= "92"/>
+		<rgb r="130" g="137" b="141"/>
+		<rgb r="149" g="149" b="149"/>
+		<rgb r="156" g="162" b="153"/>
+		<rgb r="205" g="208" b="204"/>
+		<rgb r="240" g="240" b="240"/>
+		<rgb r="255" g= "90" b= "95"/>
+		<rgb r="255" g="170" b="145"/>
+		<rgb r="255" g="180" b=  "0"/>
+		<rgb r="140" g="224" b="113"/>
+		<rgb r=  "0" g="209" b="193"/>
+		<rgb r=  "0" g="122" b="135"/>
+		<rgb r="123" g=  "0" b= "81"/>
+		<rgb r="180" g="167" b="108"/>
+	</colors>
+	<layout>
+		<oriented>
+			<horizontal>
+				<column>
+					<row><range start="0" end= "8"/></row>
+					<row><range start="8" end="16"/></row>
+				</column>
+			</horizontal>
+			<square>
+				<column>
+					<row><range start= "0" end= "4"/></row>
+					<row><range start= "4" end= "8"/></row>
+					<row><range start= "8" end="12"/></row>
+					<row><range start="12" end="16"/></row>
+				</column>
+			</square>
+			<vertical>
+				<row>
+					<column><range start="0" end= "8"/></column>
+					<column><range start="8" end="16"/></column>
+				</row>
+			</vertical>
+		</oriented>
+	</layout>
+</palette>

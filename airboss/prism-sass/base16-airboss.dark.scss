@@ -1,0 +1,166 @@
+/*
+
+Name:       Base16 Airboss Dark
+Author:     JPOZ (http://jpoz.net)
+
+Prism template by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/prism/)
+Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+$base00: #2B2D2E;
+$base01: #393C3D;
+$base02: #565A5C;
+$base03: #82898D;
+$base04: #959595;
+$base05: #9CA299;
+$base06: #CDD0CC;
+$base07: #F0F0F0;
+$base08: #FF5A5F;
+$base09: #FFAA91;
+$base0a: #FFB400;
+$base0b: #8CE071;
+$base0c: #00D1C1;
+$base0d: #007A87;
+$base0e: #7B0051;
+$base0f: #B4A76C;
+
+code[class*="language-"],
+pre[class*="language-"] {
+  font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
+  font-size: 14px;
+  line-height: 1.375;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  background: $base00;
+  color: $base05;
+}
+
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+  text-shadow: none;
+  background: $base04;
+}
+
+pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+code[class*="language-"]::selection, code[class*="language-"] ::selection {
+  text-shadow: none;
+  background: $base04;
+}
+
+// Code blocks
+pre[class*="language-"] {
+  padding: 1em;
+  margin: .5em 0;
+  overflow: auto;
+}
+
+// Inline code
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: $base03;
+}
+
+.token.punctuation {
+  color: $base05;
+}
+
+.token.namespace {
+  opacity: .7;
+}
+
+.token.operator,
+.token.boolean,
+.token.number {
+  color: $base09;
+}
+.token.property {
+  color: $base0a;
+}
+.token.tag {
+  color: $base0d;
+}
+.token.string {
+  color: $base0c;
+}
+.token.selector {
+  color: $base0e;
+}
+.token.attr-name {
+  color: $base09;
+}
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+  color: $base0c;
+}
+
+.token.attr-value,
+.token.keyword,
+.token.control,
+.token.directive,
+.token.unit {
+  color: $base0b;
+}
+
+.token.statement,
+.token.regex,
+.token.atrule {
+  color: $base0c;
+}
+
+.token.placeholder,
+.token.variable {
+  color: $base0d;
+}
+
+.token.deleted {
+  text-decoration: line-through;
+}
+
+.token.inserted {
+  border-bottom: 1px dotted $base07;
+  text-decoration: none;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+
+.token.important {
+  color: $base08;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+pre > code.highlight {
+  outline: .4em solid $base08;
+  outline-offset: .4em;
+}

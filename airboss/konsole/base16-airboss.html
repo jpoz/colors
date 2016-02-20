@@ -1,0 +1,198 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html">
+    <title>Base16 Airboss</title>
+    <style type="text/css" media="screen">
+      body { margin: 5% 20%; }
+      .scheme, .author, pre, .block { font-family: "menlo", monospace; }
+  	  td, th { font-size: 13px; font-weight: bold; padding: 15px; margin: 0 5px 10px 0; }
+      th { text-align: center; }
+  	  pre {
+  	    font-size: 14px;
+  	    padding: 10px 20px;
+  	  }
+  	  
+      .base00-background { background-color: #2B2D2E; }
+      .base01-background { background-color: #393C3D; }
+      .base02-background { background-color: #565A5C; }
+      .base03-background { background-color: #82898D; }
+      .base04-background { background-color: #959595; }
+      .base05-background { background-color: #9CA299; }
+      .base06-background { background-color: #CDD0CC; }
+      .base07-background { background-color: #F0F0F0; }
+      .base08-background { background-color: #FF5A5F; }
+      .base09-background { background-color: #FFAA91; }
+      .base0A-background { background-color: #FFB400; }
+      .base0B-background { background-color: #8CE071; }
+      .base0C-background { background-color: #00D1C1; }
+      .base0D-background { background-color: #007A87; }
+      .base0E-background { background-color: #7B0051; }
+      .base0F-background { background-color: #B4A76C; }
+      
+      .base00 { color: #2B2D2E; }
+      .base01 { color: #393C3D; }
+      .base02 { color: #565A5C; }
+      .base03 { color: #82898D; }
+      .base04 { color: #959595; }
+      .base05 { color: #9CA299; }
+      .base06 { color: #CDD0CC; }
+      .base07 { color: #F0F0F0; }
+      .base08 { color: #FF5A5F; }
+      .base09 { color: #FFAA91; }
+      .base0A { color: #FFB400; }
+      .base0B { color: #8CE071; }
+      .base0C { color: #00D1C1; }
+      .base0D { color: #007A87; }
+      .base0E { color: #7B0051; }
+      .base0F { color: #B4A76C; }
+
+      .background { background-color: #2B2D2E; }
+      .background-intense { background-color: #8d8e8f; }
+      .foreground { background-color: #9CA299; }
+      .foreground-intense { background-color: #c6c9c4; }
+      .color0 { background-color: #2B2D2E; }
+      .color0-intense { background-color: #8d8e8f; }
+      .color1 { background-color: #FF5A5F; }
+      .color1-intense { background-color: #f7a5a7; }
+      .color2 { background-color: #8CE071; }
+      .color2-intense { background-color: #bee8b0; }
+      .color3 { background-color: #FFB400; }
+      .color3-intense { background-color: #f7d278; }
+      .color4 { background-color: #007A87; }
+      .color4-intense { background-color: #78b5bb; }
+      .color5 { background-color: #7B0051; }
+      .color5-intense { background-color: #b578a0; }
+      .color6 { background-color: #00D1C1; }
+      .color6-intense { background-color: #78e0d8; }
+      .color7 { background-color: #9CA299; }
+      .color7-intense { background-color: #c6c9c4; }
+    </style>
+  </head>
+  <body>
+    <h1 class="scheme">Base16 Airboss</h1>
+    <p class="author">JPOZ (http://jpoz.net)</p>
+    <table>
+      <tbody>
+        <tr>
+          <th>Name</th>
+          <th>Color</th>
+          <th>Intense</th>
+        </tr>
+        <tr>
+          <td>Foreground</td>
+          <td class='foreground'>&nbsp;</td>
+          <td class='foreground-intense'>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Background</td>
+          <td class='background'>&nbsp;</td>
+          <td class='background-intense'>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Color 0 (Black)</td>
+          <td class='color0'>&nbsp;</td>
+          <td class='color0-intense'>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Color 1 (Red)</td>
+          <td class='color1'>&nbsp;</td>
+          <td class='color1-intense'>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Color 2 (Green)</td>
+          <td class='color2'>&nbsp;</td>
+          <td class='color2-intense'>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Color 3 (Yellow)</td>
+          <td class='color3'>&nbsp;</td>
+          <td class='color3-intense'>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Color 4 (Blue)</td>
+          <td class='color4'>&nbsp;</td>
+          <td class='color4-intense'>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Color 5 (Magenta)</td>
+          <td class='color5'>&nbsp;</td>
+          <td class='color5-intense'>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Color 6 (Cyan)</td>
+          <td class='color6'>&nbsp;</td>
+          <td class='color6-intense'>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>Color 7 (White)</td>
+          <td class='color7'>&nbsp;</td>
+          <td class='color7-intense'>&nbsp;</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div>
+      <pre class="base00-background base05">
+<span class="base0E">require</span> <span class="base0B">"gem"</span>
+
+<span class="base08">string</span> = <span class="base0B">"base16"</span>
+<span class="base08">symbol</span> = <span class="base0B">:base16</span>
+<span class="base08">fixnum</span> = <span class="base09">0</span>
+<span class="base08">float</span>  = <span class="base09">0.00</span>
+<span class="base08">array</span>  = <span class="base0A">Array</span>.<span class="base0D">new</span>
+<span class="base08">array</span>  = [<span class="base0B">'chris'</span>, <span class="base09">85</span>]
+<span class="base08">hash</span>   = {<span class="base0B">"test"</span> => <span class="base0B">"test"</span>}
+<span class="base08">regexp</span> = <span class="base0C">/[abc]/</span>
+
+<span class="base03"># This is a comment</span>
+<span class="base0E">class</span> <span class="base0A">Person</span>
+  
+  <span class="base0D">attr_accessor</span> <span class="base0B">:name</span>
+  
+  <span class="base0E">def</span> <span class="base0D">initialize</span>(<span class="base08">attributes</span> = {})
+    <span class="base08">@name</span> = <span class="base08">attributes</span>[<span class="base0B">:name</span>]
+  <span class="base0E">end</span>
+  
+  <span class="base0E">def</span> <span class="base0E">self</span>.<span class="base0D">greet</span>
+    <span class="base02-background"><span class="base0B">"hello"</span></span>
+  <span class="base0E">end</span>
+<span class="base0E">end</span>
+
+<span class="base08">person1</span> = <span class="base0A">Person</span>.<span class="base0D">new</span>(<span class="base0B">:name</span> => <span class="base0B">"Chris"</span>)
+<span class="base0D">print</span> <span class="base0A">Person</span>::<span class="base0D">greet</span>, <span class="base0B">" "</span>, <span class="base08">person1</span>.<span class="base0D">name</span>, <span class="base0B">"<span class="base09">\n</span>"</span>
+<span class="base0D">puts</span> <span class="base0B">"another </span><span class="base0F">#{</span><span class="base0A">Person</span>::<span class="base0D">greet</span><span class="base0F">}</span> <span class="base0F">#{</span><span class="base08">person1</span>.<span class="base0D">name</span><span class="base0F">}</span><span class="base0B">"</span>
+      </pre>
+      
+      <pre class="base07-background base02">
+<span class="base0E">require</span> <span class="base0B">"rubygems"</span>
+
+<span class="base08">string</span> = <span class="base0B">"tomorrow"</span>
+<span class="base08">symbol</span> = <span class="base0B">:tomorrow</span>
+<span class="base08">fixnum</span> = <span class="base09">0</span>
+<span class="base08">float</span>  = <span class="base09">0.00</span>
+<span class="base08">array</span>  = <span class="base0A">Array</span>.<span class="base0D">new</span>
+<span class="base08">array</span>  = [<span class="base0B">'chris'</span>, <span class="base09">85</span>]
+<span class="base08">hash</span>   = {<span class="base0B">"test"</span> => <span class="base0B">"test"</span>}
+<span class="base08">regexp</span> = <span class="base0C">/[abc]/</span>
+
+<span class="base03"># This is a comment</span>
+<span class="base0E">class</span> <span class="base0A">Person</span>
+
+  <span class="base0D">attr_accessor</span> <span class="base0B">:name</span>
+
+  <span class="base0E">def</span> <span class="base0D">initialize</span>(<span class="base08">attributes</span> = {})
+    <span class="base08">@name</span> = <span class="base08">attributes</span>[<span class="base0B">:name</span>]
+  <span class="base0E">end</span>
+
+  <span class="base0E">def</span> <span class="base0E">self</span>.<span class="base0D">greet</span>
+    <span class="base06-background"><span class="base0B">"hello"</span></span>
+  <span class="base0E">end</span>
+<span class="base0E">end</span>
+
+<span class="base08">person1</span> = <span class="base0A">Person</span>.<span class="base0D">new</span>(<span class="base0B">:name</span> => <span class="base0B">"Chris"</span>)
+<span class="base0D">print</span> <span class="base0A">Person</span>::<span class="base0D">greet</span>, <span class="base0B">" "</span>, <span class="base08">person1</span>.<span class="base0D">name</span>, <span class="base0B">"<span class="base09">\n</span>"</span>
+<span class="base0D">puts</span> <span class="base0B">"another </span><span class="base0F">#{</span><span class="base0A">Person</span>::<span class="base0D">greet</span><span class="base0F">}</span> <span class="base0F">#{</span><span class="base08">person1</span>.<span class="base0D">name</span><span class="base0F">}</span><span class="base0B">"</span>
+      </pre>
+    </div>
+  </body>
+</html>

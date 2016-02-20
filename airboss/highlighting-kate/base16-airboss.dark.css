@@ -1,0 +1,23 @@
+/* Base16 Airboss
+Scheme: JPOZ (http://jpoz.net) */
+
+table.sourceCode, tr.sourceCode, td.sourceCode, table.sourceCode pre
+{ margin: 0; padding: 0; border: 0; vertical-align: baseline; border: none; background-color: #2B2D2E; color: #9CA299 }
+td.nums { text-align: right; padding-right: 5px; padding-left: 5px; background-color: #393C3D; }
+td.sourceCode { padding-left: 5px; }
+code.sourceCode { background-color: #2B2D2E; }
+pre.sourceCode { background-color: #2B2D2E; line-height: 125% }
+td.nums pre { background-color: #393C3D; line-height: 125% }
+code.sourceCode span.kw { color: #007A87; font-weight: bold } /* Keyword */
+code.sourceCode span.dt { color: #7B0051} /* Keyword.Type */
+code.sourceCode span.dv { color: #FFAA91 } /* Literal.Number.Integer */
+code.sourceCode span.bn { color: #FFAA91 } /* Literal.Number.Hex */
+code.sourceCode span.fl { color: #FFAA91 } /* Literal.Number.Float */
+code.sourceCode span.ch { color: #8CE071} /* Literal.String.Char */
+code.sourceCode span.st { color: #8CE071 } /* Literal.String */
+code.sourceCode span.co { color: #82898D } /* Comment */
+code.sourceCode span.ot { color: #B4A76C } /* Comment.Preproc */
+code.sourceCode span.al { color: #7B0051 } /* Generic.Error */
+code.sourceCode span.fu { color: #FFB400 } /* Name.Function */
+code.sourceCode span.re { color: #00D1C1}
+code.sourceCode span.er { color: #FF5A5F; border: 1px solid #7B0051 } /* Error */

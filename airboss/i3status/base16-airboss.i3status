@@ -1,0 +1,13 @@
+# ~/.i3status.conf
+# Base16 Airboss, by JPOZ (http://jpoz.net)
+# template by Matt Parnell, @parnmatt
+
+general {
+    colors = true
+    color_good = "#8CE071"
+    color_bad = "FF5A5F"
+    ## remember to add your prefered interval
+    # interval = 5
+}
+
+## remember to add the rest of your configure
